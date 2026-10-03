@@ -1,0 +1,140 @@
+{
+  "n_rows": 10000,
+  "n_cols": 14,
+  "columns": [
+    "Latitude",
+    "Longitude",
+    "Rainfall (mm)",
+    "Temperature (\u00b0C)",
+    "Humidity (%)",
+    "River Discharge (m\u00b3/s)",
+    "Water Level (m)",
+    "Elevation (m)",
+    "Land Cover",
+    "Soil Type",
+    "Population Density",
+    "Infrastructure",
+    "Historical Floods",
+    "Flood Occurred"
+  ],
+  "dtypes": {
+    "Latitude": "float64",
+    "Longitude": "float64",
+    "Rainfall (mm)": "float64",
+    "Temperature (\u00b0C)": "float64",
+    "Humidity (%)": "float64",
+    "River Discharge (m\u00b3/s)": "float64",
+    "Water Level (m)": "float64",
+    "Elevation (m)": "float64",
+    "Land Cover": "object",
+    "Soil Type": "object",
+    "Population Density": "float64",
+    "Infrastructure": "int64",
+    "Historical Floods": "int64",
+    "Flood Occurred": "int64"
+  },
+  "missing_values": {
+    "Latitude": 0,
+    "Longitude": 0,
+    "Rainfall (mm)": 0,
+    "Temperature (\u00b0C)": 0,
+    "Humidity (%)": 0,
+    "River Discharge (m\u00b3/s)": 0,
+    "Water Level (m)": 0,
+    "Elevation (m)": 0,
+    "Land Cover": 0,
+    "Soil Type": 0,
+    "Population Density": 0,
+    "Infrastructure": 0,
+    "Historical Floods": 0,
+    "Flood Occurred": 0
+  },
+  "total_missing": 0,
+  "duplicate_rows": 0,
+  "numerical_ranges": {
+    "Latitude": {
+      "min": 8.000337407905619,
+      "max": 36.99181252529779,
+      "mean": 22.33062717284469
+    },
+    "Longitude": {
+      "min": 68.00457459276365,
+      "max": 96.99781997816213,
+      "mean": 82.6313664237355
+    },
+    "Rainfall (mm)": {
+      "min": 0.014437168293524,
+      "max": 299.9702931027695,
+      "mean": 150.0151183736939
+    },
+    "Temperature (\u00b0C)": {
+      "min": 15.00016610027214,
+      "max": 44.99368115437786,
+      "mean": 29.961401490804757
+    },
+    "Humidity (%)": {
+      "min": 20.001338900634774,
+      "max": 99.9977717894386,
+      "mean": 59.74910444350339
+    },
+    "River Discharge (m\u00b3/s)": {
+      "min": 0.0421610565215502,
+      "max": 4999.698480228592,
+      "mean": 2515.7229457858452
+    },
+    "Water Level (m)": {
+      "min": 0.0027012235672785,
+      "max": 9.996898773860396,
+      "mean": 5.01788115473317
+    },
+    "Elevation (m)": {
+      "min": 1.1503397240072708,
+      "max": 8846.894877202165,
+      "mean": 4417.138176822381
+    },
+    "Population Density": {
+      "min": 2.2890002655517883,
+      "max": 9999.169529703417,
+      "mean": 5021.468442385648
+    },
+    "Infrastructure": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.502
+    },
+    "Historical Floods": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.4987
+    },
+    "Flood Occurred": {
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.5057
+    }
+  },
+  "categorical_unique": {
+    "Land Cover": [
+      "Water Body",
+      "Forest",
+      "Agricultural",
+      "Desert",
+      "Urban"
+    ],
+    "Soil Type": [
+      "Clay",
+      "Peat",
+      "Loam",
+      "Sandy",
+      "Silt"
+    ]
+  },
+  "target_distribution": {
+    "1": 5057,
+    "0": 4943
+  },
+  "class_balance": {
+    "1": "50.57%",
+    "0": "49.43%"
+  }
+}
